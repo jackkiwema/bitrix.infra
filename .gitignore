@@ -19,3 +19,6 @@
 /web
 
 # private folder
+/private/environment/dnsrobocert.env
+
+
