@@ -28,9 +28,9 @@ services:
     env_file: private/environment/dnsrobocert.env
     # used in config/dnsrobocert.yml
     environment:
-      - PROVIDER=yandexcloud
-      - EMAIL=tech@favor-group.ru
-      - DOMAIN=favor-group.ru
+      - PROVIDER=cloudflare
+      - EMAIL=jackkiwema@gmail.com
+      - DOMAIN=bitrix.jackkiwema.com
 
     logging:
       driver: json-file
