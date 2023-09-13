@@ -176,7 +176,7 @@ services:
     restart: unless-stopped
 
   memcached:
-    image: memcached:1-alpine
+    image: memcached:latest
     hostname: memcached
     container_name: memcached
     restart: unless-stopped
@@ -184,7 +184,7 @@ services:
       - "11211"
 
   memcached-sessions:
-    image: memcached:1-alpine
+    image: memcached:latest
     hostname: memcached-sessions
     container_name: memcached-sessions
     restart: unless-stopped
